@@ -1,0 +1,147 @@
+body {
+    background-color: #EFFFFA;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    margin-top: -5px;
+    /*Space above the flex container*/
+}
+
+.left-content {
+    margin-right: 50px;
+    /*Space between the photo and the boxes*/
+}
+
+.right-content {
+    display: flex;
+    gap: 20px;
+    margin-top: -55px;
+    margin-right: 15px;
+
+}
+
+#headshot {
+    width: 285px;
+    margin-top: -12px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #C3BEF7;
+}
+
+.title {
+    font-size: 40px;
+    color: #C3BEF7;
+    text-shadow:
+        -2px -2px 0 #FFFFFF,
+        /* Top-left shadow */
+        2px -2px 0 #FFFFFF,
+        /* Top-right shadow */
+        -2px 2px 0 #FFFFFF,
+        /* Bottom-left shadow */
+        2px 2px 0 #FFFFFF;
+    font-family: "Pacifico", cursive;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.gradient-text {
+    background: #D12F1D;
+    background: linear-gradient(to right, #D12F1D 31%, #000000 50%, #DED828 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px;
+    color: black;
+    margin-top: 0px;
+}
+
+.about {
+    font-family: "Pacifico", cursive;
+    color: #628395;
+    text-align: center;
+}
+
+.experience {
+    font-family: "Pacifico", cursive;
+    color: #628395;
+    text-align: center;
+}
+
+.forfun {
+    font-family: "Pacifico", cursive;
+    color: #628395;
+    text-align: center;
+}
+
+.box {
+    background-color: #E5ECF4;
+    color: #628395;
+    padding: 40px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin: 20px 0;
+    /* Space between boxes */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    height: auto;
+}
+
+.about h1,
+.experience h2,
+.forfun h3 {
+    margin-top: -60px;
+    padding-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.about ul,
+.experience ol,
+.forfun p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.forfun ul {
+    text-align: left;
+    font-size: 28px;
+    color: black;
+    padding-left: 20px;
+}
+
+.forfun p {
+    font-size: 23px;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.about p {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    padding-left: 5px;
+}
+
+.experience p {
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    padding-left: 5px;
+    margin-top: -5px;
+}
+
+.experience ol {
+    text-align: left;
+    font-size: 10px;
+    color: black;
+    padding-left: 5px;
+    margin-top: -10px
+}
